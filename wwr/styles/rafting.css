@@ -1,5 +1,5 @@
 :root {
-    --heading-background-color: 
+    --heading-background-color:  
     --heading-text-color:
     --padding: 
     --border: 
@@ -9,4 +9,9 @@
     display: block;
     width:100%;
     height: auto;
+}
+nav a {
+    color:rgb(244, 97, 97);
+    display:block;
+    padding: 20px;
 }
