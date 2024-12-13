@@ -1,17 +1,97 @@
 :root {
-    --heading-background-color:  
-    --heading-text-color:
-    --padding: 
-    --border: 
+    --heading-background-color: #d8f7ff;
+    --heading-text-color: #004E64;
+    --heading-font: 'Barrio', cursive;
+    --body-font: 'Roboto', sans-serif;
+    --padding: 1rem; 
+    --border: 1px solid #25A18E;
+}
+body{
+    font-family: var(--body-font);
+    line-height: 1.6;
+    margin:0;
+    padding: 0;
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    padding: 1rem;
+    background-color: var(--heading-background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    color: var(--heading-text-color);
     text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+    width:100%;
+    height: 400px;
 }   
 .hero img {
     display: block;
     width:100%;
     height: auto;
 }
-nav a {
-    color:rgb(244, 97, 97);
-    display:block;
-    padding: 20px;
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+}
+.hero article {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: var(--padding);
+    border: var(--border);
+    color: var(--heading-text-color);
+}
+.hero article img {
+    float: right;
+    margin-left: 15px;
+    width: 150px;
+    height: auto;
+}
+section {
+    margin: 2rem 0;
+}
+h2 {
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+    border-left: var(--border);
+}
+h3 {
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+    border-left: var(--border);
+}
+section img {
+    width: 200px;
+    height: auto;
+    margin: 0.5rem;
+    border: var(--border);
+    box-shadow: 0 0 10px #d8f7ff;
+}
+footer nav img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
+footer nav a {
+    text-decoration: none;
 }
