@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-box">
+            <img src="images/raftinglogo.png" width="200" alt="Logo">
+            </div>
+            <h1>The Rafting Company</h1>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Book</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+        <h2>Contact Us</h2>
+        <aside>
+        <p>Phone: 1-800-RAPIDS</p>
+        <p>Email: <a href="malito:">Theraftingcompany@rafting.co</a></p>
+        <div class="map">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3851.561243239341!2d-134.58389644513682!3d58.39237860756932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1734170183463!5m2!1sen!2sus" width="300" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </aside>
+    </section>
+    <section class="guides">
+        <h3>Meet The Guides</h3>
+            <figure>
+                <img src="images/guide1.jpg" alt="Jamie: River Guide">
+                <figcaption>Jamie: River Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/guide2.jpg" alt="Johnny: River Coordinator">
+                <figcaption>Johnny: River Coordinator</figcaption>
+            </figure>
+            <figure>
+                <img src="images/guide3.png" alt="Ralph: Director">
+                <figcaption>Ralph: Operations Director</figcaption>
+            </figure>
+        </section>
+        <form>
+            <fieldset>
+                <legend>Send Us a Message</legend>
+                <div class="userinfo">
+                <label for="fullname">Your Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="info">
+                <label for="useremail">Your Email</label>
+                <input type="email" id="useremail" name="useremail"> 
+                </div>
+                <div class="reason">
+                <label for="purpose">Reason</label>
+                <select name="purpose" id="purpose">
+                    <option value="general">General Inquiry</option>
+                    <option value="reservation">Reservation Question</option>
+                    <option value="suggestion">Website Suggestion</option>
+                </select>
+            </div>
+                <div class="message"
+                <label for="feedback">Your Message</label>
+                <textarea id="feedback" name="feedback" placeholder="Leave a message..." rows="5"></textarea>
+                </div>
+            <div class="newsletter">
+                <label for="pet">Subscribe to Monthly Newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+            </div>
+            <button type="submit">Send</button>
+        </form> 
+    </main>
+    <footer>
+        <p>&copy; 2024 The Rafting Company | Brianna Westover</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" width="30" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" width="30" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" width="30" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
