@@ -64,7 +64,7 @@ nav ul li {
 }   
 .hero h1 {
     position: absolute;
-    top: 50px;
+    top: -125px;
     left: 50%;
     transform: translateX(-50%);
     color: var(--heading-text-color);
