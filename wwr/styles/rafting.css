@@ -26,7 +26,7 @@ header {
     background-color: var(--heading-background-color);
     border-bottom: var(--border);
     max-width: 100%;
-    margin: 0m auto;
+    margin: 0 auto;
 }
 header img {
 	justify-self: start;
@@ -51,7 +51,7 @@ nav ul {
     padding: 0;
 }
 nav ul li {
-    font-family: var(--body-font)
+    font-family: var(--body-font);
     padding: 0.5rem 1rem;
 }
 .hero {
@@ -132,7 +132,6 @@ nav ul li {
     width: 100%;
     height: auto;
     border: var(--border);
-    box-shadow: #d8f7ff;
 }
 .adventures figcaption {
     margin-top: 0.5rem;
