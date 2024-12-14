@@ -62,7 +62,7 @@ nav ul li {
     background-position: center;
     color: var(--heading-text-color);
 }   
-.hero h1 {
+.hero h2 {
     position: absolute;
     top: -125px;
     left: 50%;
@@ -99,7 +99,7 @@ nav ul li {
     border: var(--border);
     margin-bottom: 1rem;
 }
-.history h2 {
+.history h3 {
     text-align: center; 
     font-family: var(--heading-font);
     font-size: 2rem;
@@ -115,7 +115,7 @@ nav ul li {
     border: var(--border);
     margin-bottom: 1rem;
 }
-.adventures h3 {
+.adventures h4 {
     grid-column: span 5; 
     text-align: center; 
     font-family: var(--heading-font);
