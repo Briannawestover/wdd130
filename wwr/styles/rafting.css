@@ -7,7 +7,7 @@
     --border: 2px solid #25A18E;
     --footer-background: #004E64;
     --footer-text-color: #25A18E;
-    --max-width: 1200px;
+    --max-width: 1030px;
 }
 body{
     font-family: var(--body-font);
