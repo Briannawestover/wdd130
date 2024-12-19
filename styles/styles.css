@@ -32,7 +32,7 @@ main img {
     box-shadow: 0 0 30px rgb(148, 193, 251);
 }
 p{
-    padding: 0px;
+    padding: 0;
 }
 aside {
     width: 20em;
